@@ -1,0 +1,14 @@
+<h2>PrimeNG Dialog Observables not completing</h2>
+<p>Observables returned by a dialog service never complete!</p>
+
+<div style="display: flex; flex-direction: column;">
+  <div style="display: flex; align-items: center;">
+    <button
+      pButton
+      label="Dynamic Dialog Test"
+      (click)="onDynamicDialogTest()"
+      style="margin-right: 1rem;"
+    ></button>
+    <span>Observable Status: {{dynamicDialogTestStatus}}</span>
+  </div>
+</div>
